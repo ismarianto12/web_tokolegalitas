@@ -1,0 +1,125 @@
+.i-blue{
+    color: #000099;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.i-blue:hover{
+    color: #000066;
+}
+
+.div-description {
+	padding: 20px 5px;
+}
+
+/*for selected data tables row*/
+
+tbody tr.selected {
+	background-color: lightblue !important;
+}
+
+/*override default tab style*/
+.nav-tabs-custom > .nav-tabs > li.li-toggle {
+	border-top-color: #3c8dbc !important;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active.li-toggle {
+	display: none !important;
+}
+
+/*override checkbox & label in datatables*/
+table input.opsiPilih, table td label {
+	margin:0 !important;
+}
+
+.forhidden .dataTables_filter {
+	display: none !important;
+}
+
+.rata-kiri div.dataTables_paginate{
+	text-align: left;
+}
+
+a.a-fg {
+	/* clear: both; */
+	font-size: 18px;
+	border-bottom: 1px solid blue;
+	font-style: italic;
+}
+
+div.group-field {
+	border: 1px solid #dddde6e6 !important;
+	border-radius: 3px;
+	background-color: #add8e64d;
+	padding-top: 5px;
+}
+
+/*Main Tab Style*/
+.nav.nav-tabs.main-tab {
+	background-color : #d9dee4;
+}
+
+/*sample custom class*/
+
+.my-class {
+	background-color: #ef828280 !important;
+}
+
+/*override disabled btn*/
+
+li button.btn.bg-light-blue.btn-flat[disabled] {
+	background-color: red !important!
+}
+
+/*override disabled button*/
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+	opacity: .23 !important;
+}
+
+/*override section*/
+
+section.content{
+	padding: 5px !important;
+}
+
+/*for input (search) on tfoot datatables*/
+tfoot input {
+    margin: 0.5em 0;
+    width: 100%;
+    color: #444;
+}
+
+.nav-tabs-custom > .nav-tabs.main-tab > li > a {
+	min-width: 120px;
+}
+
+.nav-tabs-custom > .nav-tabs.main-tab > li.active > a {
+	font-weight: bold;
+}
+
+.text-total {
+	text-align: center !important;
+	font-weight: bold;
+	color: red !important;
+	font-size: 50px !important;
+	height: 100px !important;
+}
+
+/* custom text-align class*/
+.rata-tengah {
+	text-align: center !important;
+}
+
+.rata-kiri {
+	text-align: left !important;
+}
+
+.rata-kanan {
+	text-align: right !important;
+}
+
+.input-blue-lg {
+	color: blue !important;
+	font-size: 150% !important;
+	font-weight: bold !important;
+	padding: 0 0 0 10px !important;
+}

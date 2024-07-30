@@ -1,0 +1,29 @@
+-- phpMyAdmin SQL Dump
+-- version 4.6.5.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: 11 Feb 2018 pada 15.53
+-- Versi Server: 10.1.21-MariaDB
+-- PHP Version: 5.6.30
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `rs_permata`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktur untuk view `v_gallery_header`
+--
+
+CREATE  VIEW `v_gallery_header`  AS  select `g`.`gallery_id` AS `gallery_id`,`g`.`gallery_name` AS `gallery_name`,`g`.`description` AS `description`,`g`.`created_datetime` AS `created_datetime`,`g`.`created_by` AS `created_by`,`g`.`link` AS `link`,`g`.`is_publish` AS `is_publish`,(case when isnull((select `d`.`img` from `gallery_detail` `d` where ((`d`.`gallery_id` = `g`.`gallery_id`) and (`d`.`is_cover` = 1) and (`d`.`is_active` = 1)) limit 1)) then 'default-image.png' else (select `e`.`img` from `gallery_detail` `e` where ((`e`.`gallery_id` = `g`.`gallery_id`) and (`e`.`is_cover` = 1) and (`e`.`is_active` = 1)) limit 1) end) AS `cover` from `gallery` `g` ;
+
+--
+-- VIEW  `v_gallery_header`
+-- Data: Tidak ada
+--
+

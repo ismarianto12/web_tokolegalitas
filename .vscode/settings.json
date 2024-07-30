@@ -1,0 +1,7 @@
+{
+    "editor.overviewRulerBorder": false,
+    "terminal.integrated.fastScrollSensitivity": 3,
+    "editor.fastScrollSensitivity": 3,
+    "editor.scrollBeyondLastColumn": 6,
+    "editor.wordWrap": "on"
+}

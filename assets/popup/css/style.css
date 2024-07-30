@@ -1,0 +1,25 @@
+body{
+	background:url('../images/white_carbonfiber.png');
+}
+header{
+	width:672px;
+	margin:30px auto;
+}
+
+header h1 span{
+	display:block;
+	font-size:14px;
+}
+
+section{width:672px;margin:20px auto;background:rgba(255,255,255,.7);border-radius:8px}
+#gallery{padding:10px}
+#gallery ul{
+	list-style-type:none;
+}
+#gallery ul li{
+	display:inline-block;
+	padding:5px;
+}
+#gallery ul li img:hover{
+	opacity:0.8;
+}
