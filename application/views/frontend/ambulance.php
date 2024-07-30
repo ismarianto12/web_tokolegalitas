@@ -3,7 +3,7 @@ $this->load->helper('url');
 $rs = $this->uri->segment(1);
 $list_rs = $this->frontmodel->get_opt_rs();
 ?>
-<div id="ambulance-wrapper" style="margin-top: 50px;"">
+<div id="ambulance-wrapper" style="margin-top: 50px;">
   <div id="ambulance">
     <div id="breadcrumb">
       <div class="container">

@@ -324,10 +324,10 @@ class Frontmodel extends Model
     }
 
 
-    function get_slide($id_rumahsakit)
+    function get_slide()
     {
         $data = array();
-        $q = $this->db->get_where('slide', array('id_rumahsakit' => $id_rumahsakit, 'is_active' => 1));
+        $q = $this->db->get_where('slide', array('is_active' => 1));
         $data = $q->result();
 
         return $data;
