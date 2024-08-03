@@ -4,7 +4,7 @@
             <?php foreach ($sliders as $slide) { ?>
 
                 <div class="swiper-slide" data-zanim-timeline="{}">
-                    <div class="bg-holder" style="background-image:url(<?= base_url('assets/image/slide/'. $slide->img) ?>"></div>
+                    <div class="bg-holder" style="background-image:url(<?= base_url('assets/image/slide/' . $slide->img) ?>"></div>
                     <!--/.bg-holder-->
                     <div class="container">
                         <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
@@ -16,7 +16,9 @@
                                     <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'><?= $slide->description ?></p>
                                 </div>
                                 <div class="overflow-hidden">
-                                    <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="<?= base_url('kontak-kami') ?>">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="<?= base_url('kontak-kami') ?>">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
+                                    <div data-zanim-xs='{"delay":0.2}'>
+                                        <a class="btn btn-warning mt-3" href="https://api.whatsapp.com/send?phone=6285274639791&text=Halo%20TokoLegalitas.com,%20Saya%20Mau%20Bertanya...">Kontak Kami<span class="fas fa-chevron-right ms-2"></span></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
