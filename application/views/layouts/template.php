@@ -184,7 +184,7 @@
     <div class="bg-primary py-3 d-none d-sm-block text-white fw-bold" style="padding: unset !important;margin: unset !important;">
         <div class="container">
             <div class="row align-items-center gx-4">
-                <div class="col-auto d-none d-lg-block fs--1"><span class="fa fa-envelope text-warning me-2" data-fa-transform="grow-3"></span>info.rariyosya@gmail.com</div>
+                <div class="col-auto d-none d-lg-block fs--1"><span class="fa fa-envelope text-warning me-2" data-fa-transform="grow-3"></span>tokolegalitas@gmail.com</div>
                 <div class="col-auto ms-md-auto order-md-2 d-none d-sm-flex fs--1 align-items-center"><span class="fas fa-clock text-warning me-2" data-fa-transform="grow-3"></span>Mon-Sat, 8.00-18.00. Sunday CLOSED</div>
                 <div class="col-auto"><span class="fas fa-phone-alt text-warning" data-fa-transform="shrink-3"></span><a class="ms-2 fs--1 d-inline text-white fw-bold" href="tel:+6281293805004">Tlp: (021) 29021873 HP: +62 812-9380-5004</a></div>
             </div>

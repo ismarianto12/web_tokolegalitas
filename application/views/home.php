@@ -4,16 +4,16 @@
             <?php foreach ($sliders as $slide) { ?>
 
                 <div class="swiper-slide" data-zanim-timeline="{}">
-                    <div class="bg-holder" style="background-image:url(<?= base_url('assets/image/slide/' . $slide->img) ?>"></div>
-                    <!--/.bg-holder-->
-                    <div class="container">
+                    <div class="bg-holder" style="background-image:url(<?= base_url('assets/image/slide/' . $slide->img) ?>);background-color:rgba(0,0,0,0.62) !important"></div>
+
+                    <div class="container" style="background-color:rgba(0,0,0,0.62) !important">
                         <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
                             <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                                 <div class="overflow-hidden">
-                                    <h1 class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'><?= $slide->title ?></h1>
+                                    <h1 class="fs-4 fs-md-5 lh-1 text-white" data-zanim-xs='{"delay":0}'><?= $slide->title ?></h1>
                                 </div>
                                 <div class="overflow-hidden">
-                                    <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'><?= $slide->description ?></p>
+                                    <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs text-white" data-zanim-xs='{"delay":0.1}'><?= $slide->description ?></p>
                                 </div>
                                 <div class="overflow-hidden">
                                     <div data-zanim-xs='{"delay":0.2}'>
@@ -23,8 +23,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
 
             <?php
             } ?>
@@ -571,11 +571,11 @@
             <div class="col-md-4 mb-3">
                 <div>
                     <a href="https://www.TokoLegalitas.com/">
-                        <img class="img-fluid" src="<?= base_url('assets/front') ?>/assets/logo.png" alt="Logo Footer">
+                        <img class="img-fluid" src="<?= base_url('assets/front') ?>/assets/logo.png" alt="Logo Footer" style="width:60%">
                     </a>
                     <p>Kami akan membantu anda terkait dengan pembuatan dan pendirian PT, CV, serta pengurusan perizinan-perizinan yang diperlukan dalam rangka melakukan kegiatan usaha.</p>
                     <a href="https://pse.kominfo.go.id/tdpse-detail/15498" target="_blank" rel="noopener noreferrer">
-                        <img class="img-fluid" src="https://www.TokoLegalitas.com/wp-content/uploads/2023/08/PSE-Kominfo-Terdaftar-Resmi.png" alt="PSE Kominfo Terdaftar">
+                        <img class="img-fluid" src="https://www.rariyosya.com/wp-content/uploads/2023/08/PSE-Kominfo-Terdaftar-Resmi.png" alt="PSE Kominfo Terdaftar">
                     </a>
                 </div>
             </div>
@@ -596,16 +596,16 @@
                 <h4 class="text-white">KONTAK KAMI</h4>
                 <p class="text-white">Grand Slipi Tower, Lt 9 Unit O, CHR Office,<br>Jl. Jend. S. Parman Kav 22-24, RT.001/RW.004, Kel. Palmerah, Kec. Palmerah Kota Jakarta Barat, 11480 DKI Jakarta</p>
                 <div class="d-flex align-items-center mb-2 text-white">
-                    <img src="https://www.TokoLegalitas.com/wp-content/uploads/2019/02/logo-tlp.png" class="me-2" style="width: 16px;" alt="Phone">
+                    <img src="https://www.rariyosya.com/wp-content/uploads/2019/02/logo-tlp.png" class="me-2" style="width: 16px;" alt="Phone">
                     <a href="tel:02129021873" class="text-white">(021) 29021873</a>
                 </div>
                 <div class="d-flex align-items-center mb-2 text-white">
-                    <img src="https://www.TokoLegalitas.com/wp-content/uploads/2019/02/logo-wa.png" class="me-2" style="width: 16px;" alt="WhatsApp">
-                    <a href="https://api.whatsapp.com/send?phone=6285274639791&amp;text=Halo%20TokoLegalitas.com,%20saya%20mau%20tanya" class="text-white">+62 812-1077-6636</a>
+                    <img src="https://www.rariyosya.com/wp-content/uploads/2019/02/logo-wa.png" class="me-2" style="width: 16px;" alt="WhatsApp">
+                    <a href="https://api.whatsapp.com/send?phone=6285274639791&amp;text=Halo%20TokoLegalitas.com,%20saya%20mau%20tanya" class="text-white">+62 6285274639791</a>
                 </div>
                 <div class="d-flex align-items-center text-white">
-                    <img src="https://www.TokoLegalitas.com/wp-content/uploads/2019/02/gmail.png" class="me-2" style="width: 16px;" alt="Email">
-                    <span class="text-white">info.rariyosya@gmail.com</span>
+                    <img src="https://www.rariyosya.com/wp-content/uploads/2019/02/gmail.png" class="me-2" style="width: 16px;" alt="Email">
+                    <span class="text-white">tokolegalitas@gmail.com</span>
                 </div>
             </div>
         </div>
